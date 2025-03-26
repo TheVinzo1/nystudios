@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NY Studios - Video Editing & Graphics</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font for Akira Expanded Bold -->
+    <link href="https://fonts.googleapis.com/css2?family=Akira+Expanded:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky header with logo, name, and button -->
+    <div class="sticky-header">
+        <img src="assets/logo.png" alt="NY Studios Logo" class="logo">
+        <h1 class="main-heading"><span class="ny-studios">NY Studios</span></h1>
+        <a href="https://wa.me/8801303419614" target="_blank" class="hire-us-btn">Hire Us</a>
+    </div>
+
+    <!-- Main header section with background and branding -->
+    <div class="header">
+        <div class="header-content">
+            <p class="tagline">Your Reliable Video Editing, Thumbnail, and Graphics Solution</p>
+            <div class="floating-logos">
+                <div class="logo-ticker">
+                    <img src="assets/logo1.png" alt="Logo 1" class="floating-logo blue-glow">
+                    <img src="assets/logo2.png" alt="Logo 2" class="floating-logo blue-glow">
+                    <img src="assets/logo3.png" alt="Logo 3" class="floating-logo blue-glow">
+                    <img src="assets/logo4.png" alt="Logo 4" class="floating-logo orange-glow">
+                    <img src="assets/logo5.png" alt="Logo 5" class="floating-logo orange-glow">
+                    <img src="assets/logo6.png" alt="Logo 6" class="floating-logo orange-glow">
+                    <img src="assets/logo7.png" alt="Logo 7" class="floating-logo orange-glow">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Editing Samples -->
+    <div id="samples" class="section">
+        <h2 class="section-title">Video Editing Samples</h2>
+        <p class="section-description">Check out our professional video editing samples across various categories.</p>
+        <div class="service-menu">
+            <button onclick="showSamples('documentary')">Documentary</button>
+            <button onclick="showSamples('gaming')">Gaming</button>
+            <button onclick="showSamples('shortform')">Short-Form</button>
+            <button onclick="showSamples('podcast')">Podcast</button>
+            <button onclick="showSamples('others')">Others</button>
+        </div>
+        <div id="samples-container" class="samples-container"></div>
+    </div>
+
+    <!-- Graphics and Thumbnails Samples -->
+    <div id="design-samples" class="section">
+        <h2 class="section-title">Graphics and Thumbnails</h2>
+        <p class="section-description">Browse through some of our best graphics and thumbnails created for various clients.</p>
+        <div class="service-menu">
+            <button onclick="showDesignSamples('thumbnails')">Thumbnails</button>
+            <button onclick="showDesignSamples('graphics')">Graphics</button>
+        </div>
+        <div id="design-samples-container" class="design-samples-container"></div>
+    </div>
+
+    <!-- Why Choose Us? Section -->
+    <div class="why-choose-us">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <div class="why-choose-content">
+            <p class="animated-text">
+                <span>★ Top-notch quality</span>
+                <span>✨ Creative solutions</span>
+                <span>⏰ On-time delivery</span>
+            </p>
+            <p class="transition-text">
+                After hearing our promise, see what our clients say about the NY Studios experience.
+            </p>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="testimonials">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonial">
+            <div class="testimonial-logo">
+                <img src="assets/client1-logo.png" alt="Client 1" class="client-logo">
+            </div>
+            <p class="client-name">Kingopoly</p>
+            <p class="client-review">"Amazing editing! NY Studios took my videos to the next level."</p>
+            <span class="client-subscribers">830K Followers</span>
+            <span class="client-views">100M+ Views</span>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-logo">
+                <img src="assets/client2-logo.png" alt="Client 2" class="client-logo">
+            </div>
+            <p class="client-name">Marinoo</p>
+            <p class="client-review">"Nicee! Good Work. Almost The Same I asked For."</p>
+            <span class="client-subscribers">150K Subscribers</span>
+            <span class="client-views">70M+ Views</span>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-logo">
+                <img src="assets/client3-logo.png" alt="Client 3" class="client-logo">
+            </div>
+            <p class="client-name">Villain Catchers</p>
+            <p class="client-review">"Highly professional! The thumbnails and designs were perfect for my content & The Videos Were Fire Bro"</p>
+            <span class="client-subscribers">10K Subscribers</span>
+            <span class="client-views">2M Views</span>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-logo">
+                <img src="assets/client4-logo.png" alt="Client 4" class="client-logo">
+            </div>
+            <p class="client-name">Asbond</p>
+            <p class="client-review">"Great Work! The Editing Was Perfect"</p>
+            <span class="client-subscribers">116K Subscribers</span>
+            <span class="client-views">11M+ Views</span>
+        </div>
+        <div class="testimonial">
+            <div class="testimonial-logo">
+                <img src="assets/client5-logo.png" alt="Client 5" class="client-logo">
+            </div>
+            <p class="client-name">@TradeOnNova</p>
+            <p class="client-review">"Good Work"</p>
+            <span class="client-subscribers">60K+ Followers</span>
+            <span class="client-views">Twitter Affiliate</span>`
+        <!-- Add more testimonials here -->
+    </div>
+
+    <!-- Socials Section -->
+    <div class="socials">
+        <a href="https://twitter.com/the_vinzo" target="_blank">Follow us on Twitter</a>
+        <a href="https://wa.me/8801303419614" target="_blank">Contact us on WhatsApp</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Website developed by TheVinzo<br>copyright 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
